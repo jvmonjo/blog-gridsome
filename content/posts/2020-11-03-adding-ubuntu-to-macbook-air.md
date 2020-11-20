@@ -3,6 +3,7 @@ title: Adding Ubuntu to a MacBook Air
 slug: adding-ubuntu-to-macbook-air
 date: 2020-11-03
 published: true
+cover_image: ./images/1280px-Ubuntu_20.10_Groovy_Gorilla_Desktop.png
 tags: [Ubuntu, Linux, Mac]
 ---
 

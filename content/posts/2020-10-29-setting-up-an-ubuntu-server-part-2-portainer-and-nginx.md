@@ -3,6 +3,7 @@ title: "Setting up an Ubuntu server [part 2]: Portainer and Nginx"
 slug: setting-up-an-ubuntu-server-part-2-portainer-and-nginx
 date: 2020-10-29
 published: true
+cover_image: ./images/photo-1551703599-6b3e8379aa8c.jpeg
 tags: [devops]
 ---
 

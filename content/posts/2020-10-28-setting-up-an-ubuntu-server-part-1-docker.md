@@ -3,7 +3,8 @@ title: "Setting up an Ubuntu server [part 1]: Docker"
 slug: setting-up-an-ubuntu-server-part-1-docker
 date: 2020-10-28
 published: true
-tags: devops
+cover_image: ./images/jordan-harrison-40XgDxBfYXM-unsplash.jpg
+tags: [devops]
 ---
 
 Ok. You've just got a home server or you've hired a vps Ubuntu server. I'm not a devops guy so I need a step by step guide. What do you need to do?
