@@ -42,7 +42,7 @@ export default {
     PostCard
   },
   metaInfo: {
-    title: 'Monjo.dev'
+    title: 'Josep V. Monjo'
   }
 }
 </script>
