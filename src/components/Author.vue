@@ -12,8 +12,8 @@
 		</p>
 
 		<p class="author__links">
-			<a href="//twitter.com/monjo">Follow me on Twitter</a>
-			<a href="//github.com/jvmonjo">GitHub</a>
+			<a href="//twitter.com/monjo" target="_blank"><img class="icon" src="../assets/images/twitter.svg" alt="twiter"></a>
+			<a href="//github.com/jvmonjo" target="_blank"><img class="icon" src="../assets/images/github.svg" alt="github"></a>
 		</p>
 
 	</div>
@@ -34,6 +34,10 @@ export default {
 </script>
 
 <style lang="scss">
+.icon {
+	height: 30px;
+	width: 30px;
+}
 .author {
 	margin: 0 auto;
 	max-width: 500px;
