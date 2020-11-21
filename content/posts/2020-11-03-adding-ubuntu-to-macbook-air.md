@@ -19,7 +19,7 @@ I have followed this instructions:
 
 We first need to boot MacOs in recovery mode by pressing Command-R (⌘R) while booting.
 
-Once in recovery mode go to utilities/terminal, navigate to your pendrive where you have downloaded refind folder. Type
+Once in recovery mode go to utilities/terminal, navigate to your pen drive where you have downloaded refind folder. Type
 
 `./refind-install`
 

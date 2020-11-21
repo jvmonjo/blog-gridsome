@@ -7,9 +7,9 @@ cover_image: ./images/photo-1551703599-6b3e8379aa8c.jpeg
 tags: [devops]
 ---
 
-Using Docker is one of the cleanest and easiest ways to manteni our web apps oragnized, up and running.
+Using Docker is one of the cleanest and easiest ways to maintain our web apps organized, up and running.
 
-We certaintly could do it using the docker cli, but there's a much better way to do it using a GUI named [Portainer](https://www.portainer.io/).
+We certainly could do it using the docker cli, but there's a much better way to do it using a GUI named [Portainer](https://www.portainer.io/).
 
 To install portainer just need to create a volume and run the portainer container like so.
 
