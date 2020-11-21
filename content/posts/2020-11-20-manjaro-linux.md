@@ -9,9 +9,9 @@ canonical_url: false
 description: Manjaro has just became my main distro
 ---
 
-I've been an Ubuntu user for long time. During this time of been tempted to change to other distributions but I ended up sticking with Ubuntu due to its simplicity, stability and community support.
+I've been an Ubuntu user for a long time. During this time I've been tempted to change to other distributions, and I did it a couple of times, but I ended up sticking with Ubuntu due to its simplicity, stability and community support.
 
-But I was pissed by the last Canonical movements to force you to use their snap packages. Mainly because:
+But I was pissed by the last Canonical movements to **force you to use their snap packages**. Mainly because:
 
 * They add unnecessary weight to the apps
 * The apps can't access the host api directly
