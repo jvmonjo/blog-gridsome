@@ -47,7 +47,7 @@ I had only to install the webcam drivers from here:
     sudo make install
     cd ../..
     sudo make
-    sudo make install   # (Update with make install for 18.04)    
+    sudo make install   # (Update with make install for 18.04)
     sudo depmod
     sudo modprobe -r bdc_pci # this one fails to me :( but it works ok
     sudo modprobe facetimehd
