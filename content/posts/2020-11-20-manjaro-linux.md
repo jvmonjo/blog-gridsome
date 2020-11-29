@@ -79,6 +79,7 @@ WantedBy=multi-user.target
 And then run the following:
 
 `systemctl enable suspend-fix.service`
+
 `systemctl start suspend-fix.service`
 
 After that you no longer can wake the computer by opening the laptop. You'll have to press the power button. But the proble would have disapeared.
