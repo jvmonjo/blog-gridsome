@@ -51,3 +51,34 @@ To make the webcam work I usually have to compile the drivers from source, but t
 
 Sometimes when building a package you can recieve a GPG import key error. You need to manually import it with:
 `gpg --keyserver pool.sks-keyservers.net --recv-key <YOUR KEY>`
+
+### Automatic keyboard and screen light
+
+You can use [lightum](https://github.com/poliva/lightum), although I still have some issues with the keyboard adjustments.
+
+### Wake up after suspend
+
+I was havving issues with the laptop not suspending after closing the laptop. In the [arch wiki](https://wiki.archlinux.org/index.php/Mac#Wake_Up_After_Suspend) suggests:
+
+Add this file:
+
+`sudo nano /etc/systemd/system/suspend-fix.service`
+
+With this conent:
+
+```text{codeTitle: "suspend-fix.service"}
+[Unit]
+Description=Fix for the suspend issue
+[Service]
+Type=oneshot
+ExecStart=/bin/sh -c "echo XHC1 > /proc/acpi/wakeup && echo LID0 > /proc/acpi/wakeup"
+[Install]
+WantedBy=multi-user.target
+```
+
+And then run the following:
+
+`systemctl enable suspend-fix.service`
+`systemctl start suspend-fix.service`
+
+After that you no longer can wake the computer by opening the laptop. You'll have to press the power button. But the proble would have disapeared.
