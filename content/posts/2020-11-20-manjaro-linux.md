@@ -96,3 +96,7 @@ An keep just:
 - settings.ini
 
 Found [here](https://forum.manjaro.org/t/how-to-restore-default-style-of-windows-buttons-in-gnome-shell/34414/4).
+
+### AMD GPU Drivers
+
+I have an RX 5700XT so I need a NAVI driver. In the [arch wiki](https://wiki.archlinux.org/index.php/AMDGPU) suggests to install mesa-git driver (expermental) to enable 3D acceleration for NAVI GPUs.
