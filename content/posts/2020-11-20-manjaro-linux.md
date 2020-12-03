@@ -33,7 +33,7 @@ And the official repos combined with the gigantic AUR repo, makes it so easy to 
 
 I'm definitely sticking to Manjaro as my main distribution for a while.
 
-## Manjaro on Macbook Air
+## Manjaro KDE on Macbook Air
 
 My laptop is a 2017 MacBook Air. Manjaro installed without problems to it. But as usual, I had to install a couple of drivers.
 
@@ -83,3 +83,16 @@ And then run the following:
 `systemctl start suspend-fix.service`
 
 After that you no longer can wake the computer by opening the laptop. You'll have to press the power button. But the proble would have disapeared.
+
+### Fix funky buttons on GTK apps after restart
+
+You need to remove these files and folders from `~/.config/gtk-3.0`:
+- assets/ - folder for the buttons to integrate with the Breeze theme
+- colors.css - to match the colors of the color-scheme used in KDE Plasma
+- window_decorations.css - to decorate the windows according to Breeze
+
+An keep just:
+- gtk.css
+- settings.ini
+
+Found [here](https://forum.manjaro.org/t/how-to-restore-default-style-of-windows-buttons-in-gnome-shell/34414/4).
