@@ -4,7 +4,7 @@ slug: fedora-on-macbook-air
 date: 2021-02-20
 tags: [Linux, Fedora, Mac]
 published: true
-cover_image: ./images/fedora-mackbook-air.png
+cover_image: ./images/fedora-macbook-air.png
 ---
 
 Yes, I know. DistroHopping, but I can't help it. I like to try as many different distros and Desktop environments as I can.
