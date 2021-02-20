@@ -1,9 +1,9 @@
 ---
 title: Fixing 2 minutes shutdown issue
 slug: fixing-2-minutes-shutdown-issue
-date: 2020-31-12
 tags: [Manjaro,Linux]
 cover_image: ./images/photo_2020-11-20_12-31-41.jpg
+date: 2020-12-31
 published: true
 ---
 
